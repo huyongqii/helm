@@ -1,0 +1,52 @@
+apiVersion: v1
+entries:
+  chaos-mesh:
+  - annotations:
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Seamless Upgrades
+      artifacthub.io/prerelease: "true"
+    apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-04-18T16:03:42.656352+08:00"
+    description: Chaos Mesh is a cloud-native Chaos Engineering platform that orchestrates
+      chaos on Kubernetes environments.
+    digest: 7deb7aa49aa60a2a695f4a706b95d442ad7883c493ef7e670a688efbd8bd94a4
+    home: https://chaos-mesh.org
+    icon: https://raw.githubusercontent.com/chaos-mesh/chaos-mesh/master/static/logo.svg
+    keywords:
+    - chaos-engineering
+    - resiliency
+    - fault-injection
+    - kubernetes
+    - testing
+    maintainers:
+    - email: cwen@pingcap.com
+      name: cwen0
+    - email: yangkeao@chunibyo.icu
+      name: YangKeao
+    - email: wenghao@pingcap.com
+      name: dcalvin
+    - email: yb532204897@gmail.com
+      name: yeya24
+    - email: tttick@gmail.com
+      name: Gallardot
+    name: chaos-mesh
+    sources:
+    - https://github.com/chaos-mesh/chaos-mesh
+    urls:
+    - https://github.com/huyongqii/helm/chaos-mesh-0.0.0.tgz
+    version: 0.0.0
+  mychart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-18T16:03:42.656612+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 2c04fd08ed7d0680b918554aab040ca6acd2010e33d202ce55b23b5cf36b38ee
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/huyongqii/helm/mychart-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-04-18T16:03:42.649096+08:00"
